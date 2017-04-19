@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="calc-container">
+		<form name="calculator">
+			<div class="row">
+				<input type="text" name="answer" class="col-xs-12 answer" readonly="readonly">
+			</div>	
+
+			<div class="row">
+				<input type="button" class="btn col-xs-3 clear" value="AC">
+				<input type="button" class="btn col-xs-3 col-xs-offset-6 arithmetic" value="/">
+			</div>	
+
+			<div class="row">
+				<input type="button" class="btn col-xs-3" value="7">
+				<input type="button" class="btn col-xs-3" value="8">
+				<input type="button" class="btn col-xs-3" value="9">
+				<input type="button" class="btn col-xs-3 arithmetic" value="*">
+			</div>
+
+			<div class="row">
+				<input type="button" class="btn col-xs-3" value="4">
+				<input type="button" class="btn col-xs-3" value="5">
+				<input type="button" class="btn col-xs-3" value="6">
+				<input type="button" class="btn col-xs-3 arithmetic" value="-">
+			</div>
+
+			<div class="row">
+				<input type="button" class="btn col-xs-3" value="1">
+				<input type="button" class="btn col-xs-3" value="2">
+				<input type="button" class="btn col-xs-3" value="3">
+				<input type="button" class="btn col-xs-3 arithmetic" value="+">
+			</div>
+
+			<div class="row">
+				<input type="button" class="btn col-xs-6" value="0">
+				<input type="button" class="btn col-xs-3" value=".">
+				<input type="button" class="btn col-xs-3 arithmetic" value="=">
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>
